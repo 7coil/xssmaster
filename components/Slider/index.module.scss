@@ -1,0 +1,16 @@
+.sliderContainer {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  background-color: #2a2a2a;
+  .slider {
+    display: flex;
+    padding: 1em;
+    img {
+      box-sizing: border-box;
+      height: 30vh;
+      margin-right: 1em;
+      border-radius: 5px;
+    }
+  }
+}
+
