@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "build:js": "parcel build index.js -d dist/",
-    "build:index": "parcel build index.js -d dist/",
+    "build:index": "parcel build index.html -d dist/",
     "build": "npm-run-all build:*",
     "dev": "parcel index.html"
   },
